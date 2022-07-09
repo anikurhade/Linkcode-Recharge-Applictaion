@@ -32,7 +32,7 @@ public register() {
 	mainframe.setSize(1366, 768);
 	mainframe.setVisible(true);
 			//------------------------ Background Image---------------
-			ImageIcon img=new ImageIcon("D:/java/NAture/u.jpg");
+			ImageIcon img=new ImageIcon("D:/images/registerimg1.jpg");
 			backgrud =new JLabel(img);
 			mainframe.add(backgrud);
 	//-----------------------heading---------

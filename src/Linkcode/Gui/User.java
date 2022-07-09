@@ -23,7 +23,7 @@ public User() {
 	mainframe.setSize(1366, 768);
 	mainframe.setVisible(true);
 			//-------------------Background Image------------
-		ImageIcon img=new ImageIcon("D:/java/NAture/user.jpg");
+		ImageIcon img=new ImageIcon("D:/images/userpageimg1.jpg");
 		backgrund=new JLabel(img);
 		mainframe.add(backgrund);
 	//----------------------panel1 west Side Adding----------------
@@ -33,7 +33,7 @@ public User() {
 	 westimgpnl.setLayout(null);
 	 backgrund.add(westimgpnl);
 	 		//adding image to 
-	 		img=new ImageIcon("D:/java/NAture/wel.jpg");
+	 		img=new ImageIcon("D:/images/userpageimg2.jpg");
 	 		Image temp=img.getImage();
 	 		Image fin=temp.getScaledInstance(680, 568, Image.SCALE_SMOOTH);
 	 		img=new ImageIcon(fin);

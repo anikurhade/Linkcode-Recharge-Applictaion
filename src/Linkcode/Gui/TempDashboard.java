@@ -52,7 +52,7 @@ public TempDashboard() {
 	mainframe.setVisible(true);
 	
 	//background Image
-    img=new ImageIcon("D:/java/NAture/user3.jpg"); 
+    img=new ImageIcon("D:/images/loginpage2.jpg"); 
 	Backgroud=new JLabel(img);
 	mainframe.add(Backgroud);
 	//-------------------------------Heading---------------------

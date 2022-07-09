@@ -15,12 +15,12 @@ JButton enter;
 Font f1=new Font("Courier",Font.BOLD,40);
 public Welcome() {
 	//frame Intialise
-	mainframe=new JFrame("Linkcide Services");
+	mainframe=new JFrame("Linkcode Services");
 	mainframe.setSize(1366, 768);
 	mainframe.setVisible(true);
 	
 	//background Image
-	ImageIcon img=new ImageIcon("D:/java/NAture/welcome1.jpg"); 
+	ImageIcon img=new ImageIcon("D:/images/welcomepgeimg1.jpg");
 	Backgroud=new JLabel(img);
 	mainframe.add(Backgroud);
 	
@@ -49,7 +49,7 @@ public Welcome() {
 	imgpanel.setBounds(700,300,600,400);
 	Backgroud.add(imgpanel);
 	  // adding Image 
-			img=new ImageIcon("D:/java/NAture/services.jpg");
+			img=new ImageIcon("D:/images/welcomepgeimg2.jpg");
 			Image temp=img.getImage();
 			Image finImage=temp.getScaledInstance(600,400, Image.SCALE_SMOOTH);
 			img=new ImageIcon(finImage);

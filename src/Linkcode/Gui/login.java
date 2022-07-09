@@ -23,7 +23,7 @@ public class login implements ActionListener{
 		mainframe.setVisible(true);
 		
 		//background Image
-		ImageIcon img=new ImageIcon("D:/java/NAture/login.jpg"); 
+		ImageIcon img=new ImageIcon("D:/images/loginpage2.jpg"); 
 		Backgroud=new JLabel(img);
 		mainframe.add(Backgroud);
 		//---------login panel----------------

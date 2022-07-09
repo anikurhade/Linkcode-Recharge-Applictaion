@@ -1,4 +1,4 @@
-package Linckcode.Data;
+package Linkcode.Data;
 
 public class NewRegister {
 	private String UserName;

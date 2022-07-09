@@ -52,7 +52,7 @@ public Dashboard() {
 	mainframe.setVisible(true);
 	
 	//background Image
-    img=new ImageIcon("D:/java/NAture/dash.jpg"); 
+    img=new ImageIcon("D:/images/userpageimg1.jpg"); 
 	Backgroud=new JLabel(img);
 	mainframe.add(Backgroud);
 	//-------------------------------Heading---------------------
@@ -63,13 +63,13 @@ public Dashboard() {
 		//panel Componets
 			//company name
 		JLabel companyname=new JLabel("LinKcode Services");
-		companyname.setForeground(Color.white );
+		companyname.setForeground(Color.black );
 		companyname.setFont(f1);
 		companyname.setBounds(483,170,300,70);
 		heading.add(companyname);
 			//company promo
 		JLabel companypromo=new JLabel("---------------------- The Way Towards Efficiency ----------------------");
-		companypromo.setForeground(Color.white);
+		companypromo.setForeground(Color.black);
 		f1=new Font("Courier",Font.HANGING_BASELINE,20);
 		companypromo.setFont(f1);
 		heading.add(companypromo);
@@ -77,7 +77,7 @@ public Dashboard() {
 		f1=new Font("Courier",Font.PLAIN,18);
 		availbal=new JLabel("Your Wallet Balance :- ");
 		availbal.setFont(f1);
-		availbal.setForeground(Color.white);
+		availbal.setForeground(Color.black);
 		availbal.setBounds(770,170,350,30);
 		Backgroud.add(availbal);
 		
@@ -92,13 +92,13 @@ public Dashboard() {
 		
 		f1=new Font("Courier",Font.BOLD,16);
 		name=new JLabel("Rights Reserved with @Linkcode Services. ");
-		name.setForeground(Color.white);
+		name.setForeground(Color.black);
 		name.setFont(f1);
 		name.setBounds(80,710,450,30);
 		Backgroud.add(name);
 		
-		name=new JLabel("Made Under guidance Of @Rahul Ahire By @Anirudha Kurhade  ");
-		name.setForeground(Color.white);
+		name=new JLabel("Made By @Anirudha Kurhade  ");
+		name.setForeground(Color.black);
 		name.setFont(f1);
 		name.setBounds(780,710,800,30);
 		Backgroud.add(name);
@@ -113,7 +113,7 @@ public Dashboard() {
 	 f1=new Font("Courier",Font.PLAIN,20);	
 		name=new JLabel("----Menu----");
 		name.setFont(f1);
-		name.setForeground(Color.white);
+		name.setForeground(Color.black);
 		name.setBounds(20,20,150,25);
 		menu.add(name);
 		
