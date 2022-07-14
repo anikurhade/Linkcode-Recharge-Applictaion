@@ -441,14 +441,14 @@ public Dashboard() {
 										
 										f1=new Font("Courier",Font.BOLD,25);
 										name=new JLabel("Add Quick Cash In Wallet!! ");
-										name.setForeground(Color.white);
+										name.setForeground(Color.black);
 										name.setFont(f1);
 										name.setBounds(40,20,500,30);
 										heading.add(name);
 										
 										f1=new Font("Courier",Font.BOLD,17);
 										name=new JLabel("Avoid Banking Recharge Frauds !!! ");
-										name.setForeground(Color.white);
+										name.setForeground(Color.black);
 										name.setFont(f1);
 										name.setBounds(80,80,600,20);
 										Centrlbg.add(name);
@@ -465,7 +465,7 @@ public Dashboard() {
 									//------------------------Amount----------------------
 											f1=new Font("Courier",Font.BOLD,20);
 											name=new JLabel("Amount To Be Added ");
-											name.setForeground(Color.white);
+											name.setForeground(Color.black);
 											name.setFont(f1);
 											name.setBounds(20,150,500,25);
 											Centrlbg.add(name);
@@ -480,7 +480,7 @@ public Dashboard() {
 										//----------------------------Acount Number/Upi----				
 											f1=new Font("Courier",Font.BOLD,20);
 											name=new JLabel(" Account Number / UPI Address ");
-											name.setForeground(Color.white);
+											name.setForeground(Color.black);
 											name.setFont(f1);
 											name.setBounds(10,220,400,25);
 											Centrlbg.add(name);
@@ -495,7 +495,7 @@ public Dashboard() {
 									//---------------------------Bank----------------
 											f1=new Font("Courier",Font.BOLD,20);
 											name=new JLabel("Bank Name :- ");
-											name.setForeground(Color.white);
+											name.setForeground(Color.black);
 											name.setFont(f1);
 											name.setBounds(20,290,180,25);
 											Centrlbg.add(name);
@@ -633,7 +633,7 @@ public Dashboard() {
 									
 									f1=new Font("Courier",Font.BOLD,25);
 									name=new JLabel("Update FullOFF Betterment !! ");
-									name.setForeground(Color.white);
+									name.setForeground(Color.black);
 									name.setFont(f1);
 									name.setBounds(40,10,500,30);
 									heading.add(name);
@@ -720,8 +720,8 @@ public Dashboard() {
 									Centrlbg.add(profCent);
 									
 									f1=new Font("Courier",Font.BOLD,25);
-									name=new JLabel("Would Be Available Soon Hold For Next Update ✌  ");
-									name.setForeground(Color.white);
+									name=new JLabel("Would Be Available Soon Hold For Next Update  ");
+									name.setForeground(Color.black);
 									name.setFont(f1);
 									name.setBounds(120,170,800,30);
 									profCent.add(name);
